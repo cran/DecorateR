@@ -1,0 +1,11 @@
+Planned changes in the next version:
+-----------------------------------------------------------
+- add Rcpp code to make code more efficient. 
+- add variable importances. 
+
+
+Change log:
+----------------------------------------
+
+* Version 0.1.0: February 2017
+- Package submitted to CRAN with main functions DECORATE and predict. 

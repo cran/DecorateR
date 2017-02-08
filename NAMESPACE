@@ -1,0 +1,4 @@
+import(RWekajars, rJava, RWeka, stats)
+importFrom(RWeka, J48)
+export(DECORATE)
+S3method(predict, DECORATE)
