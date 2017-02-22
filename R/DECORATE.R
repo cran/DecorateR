@@ -115,7 +115,7 @@ DECORATE <- function(x,y, C = 15,I = 50, R = 1, verbose = FALSE) {
     # replace the 0s with small number and scale
     # Then if scaled, bigger than 0 are 1s
     pred_scaled <- ifelse(pred == 0, 0.01,pred)
-    pred_scaled <- scale(pred_scaled)
+    if(sd(pred_scaled) != 0) pred_scaled <- scale(pred_scaled)
     y_artificial <- (1/pred_scaled)/(sum((1/pred_scaled)))
     y_artificial <- factor(ifelse(y_artificial > 0 , 1,0), levels = c('0','1'))
 

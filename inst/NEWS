@@ -6,6 +6,8 @@ Planned changes in the next version:
 
 Change log:
 ----------------------------------------
+* Version 0.1.1: February 2017
+- Bug fix with NA values when creating artificial samples.
 
 * Version 0.1.0: February 2017
 - Package submitted to CRAN with main functions DECORATE and predict. 
