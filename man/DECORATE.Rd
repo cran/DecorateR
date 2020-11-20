@@ -40,13 +40,12 @@ x <- iris[1:100,-5]
 dec <- DECORATE(x = x, y = y)
 
 }
-\author{
-Authors: Matthias Bogaert, Michel Ballings and Dirk Van den Poel, Maintainer: \email{Matthias.Bogaert@UGent.Be}
-}
 \references{
 Melville, P., & Mooney, R. J. (2005). Creating diversity in ensembles using artificial data. Information Fusion, 6(1), 99-111. <doi: 10.1016/j.inffus.2004.04.001>
 }
 \seealso{
 \code{\link{predict.DECORATE}}
 }
-
+\author{
+Authors: Matthias Bogaert, Maintainer: \email{Matthias.Bogaert@UGent.Be}
+}

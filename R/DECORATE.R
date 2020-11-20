@@ -22,7 +22,7 @@
 #'
 #' @seealso \code{\link{predict.DECORATE}}
 #'
-#' @author Authors: Matthias Bogaert, Michel Ballings and Dirk Van den Poel, Maintainer: \email{Matthias.Bogaert@@UGent.Be}
+#' @author Authors: Matthias Bogaert, Maintainer: \email{Matthias.Bogaert@@UGent.Be}
 #' @examples
 #'
 #' data(iris)
@@ -30,7 +30,7 @@
 #' x <- iris[1:100,-5]
 #' dec <- DECORATE(x = x, y = y)
 #'
-DECORATE <- function(x,y, C = 15,I = 50, R = 1, verbose = FALSE) {
+DECORATE <- function(x,y, C = 15, I = 50, R = 1, verbose = FALSE) {
 
   #Error handling
   if (!is.data.frame(x)) stop("x must be a data frame")

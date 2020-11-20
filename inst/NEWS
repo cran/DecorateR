@@ -1,13 +1,16 @@
 Planned changes in the next version:
------------------------------------------------------------
-- add Rcpp code to make code more efficient. 
-- add variable importances. 
+-----------------------------------------
+
+- add variable importances.
 
 
 Change log:
-----------------------------------------
+-----------------------------------------
+* Version 0.1.2: November 2020
+- Added possiblity to output the class next to probabilities.
+
 * Version 0.1.1: February 2017
 - Bug fix with NA values when creating artificial samples.
 
 * Version 0.1.0: February 2017
-- Package submitted to CRAN with main functions DECORATE and predict. 
+- Package submitted to CRAN with main functions DECORATE and predict.

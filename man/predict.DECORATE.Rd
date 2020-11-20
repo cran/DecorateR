@@ -4,12 +4,14 @@
 \alias{predict.DECORATE}
 \title{Predict method for DECORATE objects}
 \usage{
-\method{predict}{DECORATE}(object, newdata, all = FALSE, ...)
+\method{predict}{DECORATE}(object, newdata, type = "prob", all = FALSE, ...)
 }
 \arguments{
 \item{object}{an object of the class \code{DECORATE}, as created by the function \code{DECORATE}.}
 
 \item{newdata}{a data frame containing the same predictors as in the training phase.}
+
+\item{type}{character specifying whether to return the probabilites ('prob') or class ('class'). Default: prob.}
 
 \item{all}{Return the predictions per tree instead of the average (default = FALSE).}
 
@@ -31,4 +33,3 @@ predict(object=dec,newdata=x)
 
 
 }
-
